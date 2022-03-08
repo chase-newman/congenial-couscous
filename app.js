@@ -151,14 +151,25 @@ console.log(arr.indexOf(newNum));
 console.log(`The current random number is ${arr[newIndex]}, with an index of ${newIndex}`);
 
 
+
+arr.forEach(el => {
+    
+});
+
+//try - catch
 try {
-    console.log(bill)
+    console.log(bill);
 } catch (err) {
     console.log(err);
 }
 
+//The Map Method 
+const texts = ["hello", "goodbye", "please", "thank you"];
+const caps = texts.map(el => {
+    return el.toUpperCase();
+});
 
-
+console.log(`This is the all caps array ${caps}`);
 
 
 

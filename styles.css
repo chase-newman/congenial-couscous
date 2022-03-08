@@ -1,0 +1,14 @@
+ body {
+    background: #0b142d;
+    color: white;
+ }
+ .card {
+    background-color: white;
+    height: 300px;
+    width: 15%;
+    margin: 2%;
+    display: inline-block;
+ }
+ .card:hover {
+     background-color: yellow;
+ }
