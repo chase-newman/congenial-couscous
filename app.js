@@ -171,6 +171,21 @@ const caps = texts.map(el => {
 
 console.log(`This is the all caps array ${caps}`);
 
+//Arrow Functions
+const addNums = (x,y) => x + y;
+
+//Creating a number to display on the DOM 
+const domNUM = Math.floor(Math.random() * 100) + 1;
+
+//accessing the DOM with the document object 
+console.log(document.getElementById("score"));
+document.getElementById("score").innerHTML = domNUM;
+
+
+
+
+
+
 
 
 

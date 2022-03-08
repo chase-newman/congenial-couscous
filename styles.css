@@ -2,13 +2,32 @@
     background: #0b142d;
     color: white;
  }
+ h3 {
+     text-align: center;
+     color: orange;
+     font-size: 2rem;
+ }
+ .card-row {
+    display: flex;
+    justify-content: space-between;
+ }
  .card {
     background-color: white;
-    height: 300px;
-    width: 15%;
-    margin: 2%;
-    display: inline-block;
+    height: 250px;
+    width: 200px;
  }
  .card:hover {
      background-color: yellow;
  }
+ 
+@media (max-width: 850px) {
+    .card-row {
+        flex-direction: column;
+    }
+    .card {
+        margin: 1rem;
+    }
+    .card:hover {
+        background-color: orange;
+    }
+}
