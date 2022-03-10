@@ -204,5 +204,23 @@ console.log(`This is the total of prices: ${total}`);
 
 
 
+//using the spread operator
+
+const spreadArr = [2,23,55,13,768,9999];
+
+console.log(`This is the max number from spreadArr: ${Math.max(...spreadArr)}`);
+
+
+document.getElementById("title").innerHTML = "New Card Game"
+
+
+
+
+
+
+
+
+
+
 
 
