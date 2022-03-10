@@ -182,11 +182,25 @@ console.log(document.getElementById("score"));
 document.getElementById("score").innerHTML = domNUM;
 
 
+let reduceNum = [3,5,7,9,11,10].reduce((accumulator, currentValue) => {
+    return accumulator + currentValue
+});
+
+console.log(`This is the reduced number: ${reduceNum}`);
 
 
+const prices = [9.99,1.50,19.99,49.99,30.50];
 
+// let total = 0;
+// for(let price of prices) {
+//     total += price;
+// }
 
+const total =  prices.reduce((total, price) => {
+   return total + price; 
+});
 
+console.log(`This is the total of prices: ${total}`);
 
 
 
